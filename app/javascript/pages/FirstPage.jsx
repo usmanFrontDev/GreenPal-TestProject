@@ -19,8 +19,7 @@ const FirstPage = () => {
           </h1>
 
           <p className="text-4xl w-[90%] text-center sm:text-start sm:w-[60%] break-normal text-white/90 ">
-            Why{" "}
-            <span className="font-extrabold  text-[#FF9000] px-3">
+            Why <span className="font-extrabold  text-[#FF9000] px-1">
               3,476,819
             </span>{" "}
             homeowners trust GreenPal

@@ -6,14 +6,14 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         {/* ===== Top Brand Section ===== */}
         <div className="text-center mb-8">
-          <h2 className="font-bold text-xl">Logo</h2>
-          <p className="text-gray-200 text-sm max-w-2xl mx-auto leading-relaxed">
+          <h2 className="font-bold text-4xl">Logo</h2>
+          <p className="text-gray-200 font-light text-base mt-4 max-w-2xl mx-auto leading-relaxed">
             GreenPal is hands-down the easiest way to book a local lawn care
             company for yard maintenance services at an affordable price. If
             you’re looking for same-day lawn mowing or next-day lawn cutting
             services, you’re at the right place.
           </p>
-          <p className="text-gray-200 text-sm max-w-2xl mx-auto leading-relaxed mt-3">
+          <p className="text-gray-200 font-light text-base max-w-2xl mx-auto leading-relaxed mt-3">
             GreenPal is the easiest way to book a lawn mowing service near you
             at the touch of a button without even having to make a phone call.
           </p>
@@ -23,31 +23,50 @@ const Footer = () => {
         <div className="grid sm:grid-cols-3 gap-8 text-sm mt-10">
           {/* Column 1 */}
           <div>
-            <h4 className="text-white font-semibold mb-3">GreenPal</h4>
+            <h4 className="text-white text-lg font-semibold mb-3">GreenPal</h4>
             <ul className="space-y-1 text-gray-200">
-              <li>Lawn Care Blog</li>
-              <li>Snow Removal Services</li>
-              <li>Frequently Asked Questions</li>
-              <li>Affordable Lawn Care</li>
-              <li>Lawn Care Near Me</li>
-              <li>Lawn Mowing Tips</li>
+              <li className="w-full flex justify-start gap-8">
+                <span className="w-1/2 text-base font-light text-[#dadadada]">Lawn Care Blog</span>
+                <span className="w-1/2 text-base font-light text-[#dadadada]">Landscaping</span>
+              </li>
+              <li className="w-full flex justify-start gap-8">
+                 <span className="w-1/2 text-base font-light text-[#dadadada]">Snow Removal Services</span>
+                <span className="w-1/2 text-base font-light text-[#dadadada]">Yard clean up tips</span>
+              </li>
+              <li className="w-full flex justify-start gap-8">
+                <span className="w-1/2 text-base font-light text-[#dadadada]">Frequently Asked Questions</span>
+                <span className="w-1/2 text-base font-light text-[#dadadada]">Order Lawn Care</span>
+                </li>
+              <li className="w-full flex justify-start gap-8">
+                   <span className="w-1/2 text-base font-light text-[#dadadada]">Affordable Lawn Care</span>
+                <span className="w-1/2 text-base font-light text-[#dadadada]">GreenPal Reviews</span>
+              </li>
+              <li className="w-full flex justify-start gap-8">
+                     <span className="w-1/2 text-base font-light text-[#dadadada]">Lawn Care Near Me</span>
+                <span className="w-1/2 text-base font-light text-[#dadadada]">Contact Us</span>
+              </li>
+              <li className="w-full flex justify-start gap-8">
+                  <span className="w-1/2 text-base font-light text-[#dadadada]">Lawn Mowing Tips</span>
+                <span className="w-1/2 text-base font-light text-[#dadadada]">About Us</span>
+              </li>
             </ul>
           </div>
 
-          {/* Column 2 */}
-          <div>
-            <h4 className="text-white font-semibold mb-3">Providers</h4>
+       <div className="flex justify-between items-start">
+           {/* Column 2 */}
+          <div className="w-1/2">
+            <h4 className="text-white text-lg font-semibold">Providers</h4>
             <ul className="space-y-1 text-gray-200">
-              <li>Apply to be a GreenPal</li>
-              <li>Business Guides</li>
-              <li>Vendor Free Lawn</li>
+              <li className="text-base font-light text-[#dadadada]">Apply to be a GreenPal</li>
+              <li className="text-base font-light text-[#dadadada]">Business Guides</li>
+              <li className="text-base font-light text-[#dadadada]">Vendor Free Lawn</li>
             </ul>
           </div>
 
           {/* Column 3 */}
-          <div>
-            <h4 className="text-white font-semibold mb-3">Connect with us</h4>
-            <div className="flex gap-3 mb-4">
+          <div className="w-1/2">
+            <h4 className="text-white text-lg font-semibold">Connect with us</h4>
+            <div className="flex gap-3 mt-2">
               <a
                 href="#"
                 className="hover:text-[#FF6F01]"
@@ -137,34 +156,44 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-            <h4 className="text-white font-semibold mb-3">
+          </div>
+       </div>
+
+<div className="">
+  <h4 className="text-center w-full text-xl font-semibold text-[#dadadada]">
               Get the remote control for your lawn
             </h4>
-            <div className="flex gap-3">
+            <div className="flex gap-3 mt-4 justify-between items-center">
               <a
                 href="#"
-                className="bg-white text-black px-4 py-2 rounded-md flex items-center justify-center gap-2 font-semibold text-sm hover:bg-gray-100"
+                className="bg-transparent text-[#dadadacb] border border-[#dadadacb] px-4 py-2 rounded-full
+                 flex items-center justify-center gap-2 font-semibold
+                  hover:text-black text-sm hover:bg-gray-100"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Play_2022_logo.svg"
+                  src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-play-store-icon.png"
                   alt="Play Store"
-                  className="h-5"
+                  className="h-6 w-6"
                 />
                 Play Store
               </a>
               <a
                 href="#"
-                className="bg-white text-black px-4 py-2 rounded-md flex items-center justify-center gap-2 font-semibold text-sm hover:bg-gray-100"
+                className="bg-transparent text-[#dadadacb] border border-[#dadadacb] px-4 py-2 rounded-full
+                 flex items-center justify-center gap-2 font-semibold
+                  hover:text-black text-sm hover:bg-gray-100"
               >
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
                   alt="App Store"
-                  className="h-4"
+                  className="h-6 w-6"
                 />
                 App Store
               </a>
             </div>
-          </div>
+
+</div>
+       
         </div>
 
         {/* ===== Bottom Line ===== */}
